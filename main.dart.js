@@ -40210,7 +40210,7 @@ var $async$kz=P.K(function(b,c){if(b===1)return P.M(c,r)
 while(true)switch(s){case 0:j=p.k2
 j.$1(!0)
 s=3
-return P.S(G.auG(P.i_("http://127.0.0.1:8000/api/v1/user_details/"+a+"/",0,null)),$async$kz)
+return P.S(G.auG(P.i_("https://maberrrapi.herokuapp.com/api/v1/user_details/"+a+"/",0,null)),$async$kz)
 case 3:o=c
 n=o.b
 s=n===200?4:6
@@ -40270,7 +40270,7 @@ var $async$uh=P.K(function(a,b){if(a===1)return P.M(b,r)
 while(true)switch(s){case 0:i=p.db
 i.$1(!0)
 s=3
-return P.S(G.auG(P.i_("http://127.0.0.1:8000/api/v1/category_list_for_customer/",0,null)),$async$uh)
+return P.S(G.auG(P.i_("https://maberrrapi.herokuapp.com/api/v1/category_list_for_customer/",0,null)),$async$uh)
 case 3:o=b
 n=o.b
 if(n===200){m=C.aj.c4(0,B.eO(J.as(U.eN(o.e).c.a,"charset")).c4(0,o.x))
@@ -41248,7 +41248,7 @@ ac9:function(a,b){var s=0,r=P.P(t.S),q,p,o,n,m
 var $async$ro=P.K(function(c,d){if(c===1)return P.M(d,r)
 while(true)switch(s){case 0:n=t.N
 s=3
-return P.S(G.aBP(P.i_("http://127.0.0.1:8000/api/v1/rest-auth/login/",0,null),P.aH(["username",a,"password",b],n,n)),$async$ro)
+return P.S(G.aBP(P.i_("https://maberrrapi.herokuapp.com/api/v1/rest-auth/login/",0,null),P.aH(["username",a,"password",b],n,n)),$async$ro)
 case 3:m=d
 n=m.b
 p=m.e
@@ -41275,7 +41275,7 @@ aiD:function(a,b,c,d){var s=0,r=P.P(t.S),q,p=this,o,n,m,l,k,j
 var $async$tU=P.K(function(e,f){if(e===1)return P.M(f,r)
 while(true)switch(s){case 0:k=t.N
 s=3
-return P.S(G.aBP(P.i_("http://127.0.0.1:8000/api/v1/rest-auth/registration/",0,null),P.aH(["username",a,"email",b,"password1",c,"password2",d],k,k)),$async$tU)
+return P.S(G.aBP(P.i_("https://maberrrapi.herokuapp.com/api/v1/rest-auth/registration/",0,null),P.aH(["username",a,"email",b,"password1",c,"password2",d],k,k)),$async$tU)
 case 3:j=f
 k=j.b
 s=k===200||k===201?4:6
@@ -41313,7 +41313,7 @@ tT:function(a,b){return this.aiC(a,b)},
 aiC:function(a,b){var s=0,r=P.P(t.S),q,p=this,o,n,m,l
 var $async$tT=P.K(function(c,d){if(c===1)return P.M(d,r)
 while(true)switch(s){case 0:m=a?"PUT":"POST"
-l=D.aHs(m,P.i_(a?"http://127.0.0.1:8000/api/v1/update_merchant/"+H.c(b.j(0,"user"))+"/":"http://127.0.0.1:8000/api/v1/create_merchant/",0,null))
+l=D.aHs(m,P.i_(a?"https://maberrrapi.herokuapp.com/api/v1/update_merchant/"+H.c(b.j(0,"user"))+"/":"https://maberrrapi.herokuapp.com/api/v1/create_merchant/",0,null))
 m=l.y
 m.p(0,"user",H.c(b.j(0,"user")))
 m.p(0,"uid",b.j(0,"uid"))
@@ -41357,7 +41357,7 @@ lZ:function(a){return this.Uc(a)},
 Uc:function(a2){var s=0,r=P.P(t.z),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1
 var $async$lZ=P.K(function(a3,a4){if(a3===1)return P.M(a4,r)
 while(true)switch(s){case 0:s=3
-return P.S(G.auG(P.i_("http://127.0.0.1:8000/api/v1/get_merchant_details/"+a2+"/",0,null)),$async$lZ)
+return P.S(G.auG(P.i_("https://maberrrapi.herokuapp.com/api/v1/get_merchant_details/"+a2+"/",0,null)),$async$lZ)
 case 3:a0=a4
 a1=a0.b
 s=a1===200?4:6
